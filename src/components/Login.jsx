@@ -16,6 +16,7 @@ const Login = (props) => {
       });
       props.loggedUser(user);
     } catch (err) {
+      console.log(err);
       if (err.code === "ERR_NETWORK") props.message(err.message);
       else props.message("Wrong crdedentials");
 

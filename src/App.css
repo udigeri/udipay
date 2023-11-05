@@ -2,12 +2,21 @@
   margin: 15px;
 }
 
-.error {
-  color: red;
-  background: rgb(237, 237, 237);
-  font-size: 20px;
-  border-style: solid;
-  border-radius: 3px;
-  padding: 2px;
-  margin-bottom: 10px;
+.flashes {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  width: 98%;
+  z-index: 0;
+}
+.success {
+  background: rgba(52, 255, 52, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.fail {
+  background: rgba(255, 52, 52, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
